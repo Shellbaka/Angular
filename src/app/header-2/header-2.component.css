@@ -1,6 +1,6 @@
 .Botao-header {
     padding: 15px 30px; 
-    background-color: rgba(175, 175, 175, 0.596);
+    background-color: #333333dc; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,9 @@
 .Botao-header button:hover {
     background-color: rgb(105, 105, 105);
     transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 6px 15px #FF5733; 
+    color: rgb(255, 255, 255);
+    border: 2px solid #FF5733; 
 }
 
 .Botao-header button:nth-child(1) { 
