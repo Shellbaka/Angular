@@ -1,0 +1,12 @@
+.Aviso-conteiner{
+   
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Aviso-conteiner h1{
+ 
+font-size: 70px;
+color: azure;
+}

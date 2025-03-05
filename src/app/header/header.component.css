@@ -1,0 +1,19 @@
+.irish-grover-regular {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.titulo {
+background-color: red;
+}
+
+.titulo h1{
+    font-size: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}

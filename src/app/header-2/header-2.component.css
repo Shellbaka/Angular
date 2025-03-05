@@ -1,0 +1,24 @@
+.Botao-header {
+    
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(175, 175, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Botao-header button{
+    padding: 10px; 
+    color: azure;
+    background-color: rgb(145, 144, 143);
+    font-size: 60px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.Botao-header button:hover {
+background-color: rgb(105, 105, 105);
+
+}
