@@ -1,24 +1,43 @@
 .Botao-header {
-    
-    
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: rgb(175, 175, 175);
-    justify-content: center;
-    align-items: center;
+    padding: 15px 30px; 
+    background-color: rgba(175, 175, 175, 0.596);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.Botao-header button{
-    padding: 10px; 
+.Botao-header button {
+    padding: 10px 20px; 
     color: azure;
-    background-color: rgb(145, 144, 143);
+    background: rgb(145, 144, 143);
     font-size: 60px;
-    margin: 10px;
+    border: none;
     border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgb(85, 85, 84);
 }
 
 .Botao-header button:hover {
-background-color: rgb(105, 105, 105);
+    background-color: rgb(105, 105, 105);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.4);
+}
 
+.Botao-header button:nth-child(1) { 
+    margin-right: auto;
+    margin-left: 20px; 
+}
+
+.Botao-header button:nth-child(2) {
+    margin: 0 auto; 
+}
+
+.Botao-header button:nth-child(3) {
+    margin-right: 15px; 
+}
+
+.Botao-header button:nth-child(4) {
+    margin-right: 20px; 
 }

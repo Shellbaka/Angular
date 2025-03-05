@@ -1,12 +1,23 @@
-.Aviso-conteiner{
-   
+.irish-grover {
+    font-family: "Irish Grover", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Aviso-conteiner {
     padding-left: 15px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
 }
 
-.Aviso-conteiner h1{
- 
-font-size: 70px;
-color: azure;
+.Aviso-conteiner h1 {
+    font-size: 70px;
+    color: azure;
+    max-width: 80%;
+    text-shadow: 3px 3px 10px black, 4px 4px 0px gray;
+
 }

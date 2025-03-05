@@ -4,10 +4,11 @@
     font-style: normal;
   }
   
+  *{
+    background-color: #bf0e0e93;
+  }
 
-.titulo {
-background-color: red;
-}
+
 
 .titulo h1{
     font-size: 150px;
