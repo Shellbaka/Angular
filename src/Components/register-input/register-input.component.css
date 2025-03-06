@@ -1,0 +1,29 @@
+
+
+.Conteiner-Registro {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    border: 2px solid red;
+    width: 80%;
+    max-width: 500px;
+    background-color: #333;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.Conteiner-Registro h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.Conteiner-Registro input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}

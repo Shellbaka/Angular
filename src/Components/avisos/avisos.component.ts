@@ -3,6 +3,7 @@ import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-avisos',
+  standalone: true,
   imports: [],
   templateUrl: './avisos.component.html',
   styleUrl: './avisos.component.css'

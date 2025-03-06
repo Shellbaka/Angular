@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
-import { Header2Component } from '../header-2/header-2.component'; 
-import { AvisosComponent } from '../avisos/avisos.component';
-import { FooterComponent } from '../footer/footer.component';
+import { HeaderComponent } from '../../Components/header/header.component';
+import { Header2Component } from '../../Components/header-2/header-2.component'; 
+import { AvisosComponent } from '../../Components/avisos/avisos.component';
+import { FooterComponent } from '../../Components/footer/footer.component';
 
 
 @Component({
