@@ -4,13 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .Botao-header button {
     padding: 10px 20px; 
     color: azure;
     background: rgb(145, 144, 143);
-    font-size: 60px;
+    font-size: 40px;
     border: none;
     border-radius: 25px;
     cursor: pointer;

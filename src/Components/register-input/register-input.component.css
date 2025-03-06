@@ -1,3 +1,8 @@
+.irish-grover {
+    font-family: "Irish Grover", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 .Conteiner-Registro {
@@ -5,18 +10,30 @@
     flex-direction: column;
     padding: 20px;
     color: white;
-    border: 2px solid red;
     width: 80%;
     max-width: 500px;
     background-color: #333;
     border-radius: 8px;
     align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 2px solid #bf0e0ec4; 
+    
+}
+.Conteiner-Registro p {
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+padding-top: 15px;
+
+
 }
 
 .Conteiner-Registro h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     padding-bottom: 10px;
+    
 }
 
 .Conteiner-Registro input {

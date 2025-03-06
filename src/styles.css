@@ -1,18 +1,15 @@
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-/* Definindo o fundo */
 body {
     background-image: url('https://images2.alphacoders.com/249/thumb-1920-249942.jpg');
-    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
 }

@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomepageComponent } from '../Pages/homepage/homepage.component';
 import { PaginaRegistroComponent } from '../Pages/pagina-registro/pagina-registro.component';
+import { PaginaLoginComponent } from '../Pages/pagina-login/pagina-login.component';
 
 export const routes: Routes = [
     {
@@ -15,5 +16,13 @@ export const routes: Routes = [
     {
       path: 'Reg',
       component: PaginaRegistroComponent
+    }, 
+    {
+
+      path: 'Log',
+      component: PaginaLoginComponent 
+
     }
+
+
   ];
