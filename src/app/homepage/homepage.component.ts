@@ -12,5 +12,7 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './homepage.component.css'
 })
 export class HomepageComponent {
-
+  dynamicText = `Faça parte agora também da nossa comunidade.<br><br>
+    Um jogo totalmente online e simulador para viciar e testar combos animais que você nunca imaginou antes.`;
+  
 }

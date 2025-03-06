@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-avisos',
@@ -6,6 +7,15 @@ import { Component } from '@angular/core';
   templateUrl: './avisos.component.html',
   styleUrl: './avisos.component.css'
 })
-export class AvisosComponent {
+export class AvisosComponent implements OnInit{
+  @Input()
+   dynamicText: String=""
 
+   constructor() {
+
+   }
+
+   ngOnInit(): void {
+       
+   }
 }
